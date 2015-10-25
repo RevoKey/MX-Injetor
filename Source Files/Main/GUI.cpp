@@ -127,9 +127,7 @@ namespace GUI
 			OpenFileName.lStructSize = sizeof(OPENFILENAME);
 
 			if (GetOpenFileName(&OpenFileName) == 0)
-			{
 				return;
-			}
 
 			ModulePath.clear();
 			ModulePath.append(File);
