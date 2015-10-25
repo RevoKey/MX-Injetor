@@ -34,10 +34,10 @@ namespace EventTimer
 					SetWindowText(GUI::StateLabel, "Injetando dll...");
 
 					DWORD Entry;
-					LPCVOID Mudele = (LPCVOID)Process::GetModuleInfo(_PID, "UnZipDataToDirectory");
+					LPCVOID Module = (LPCVOID)Process::GetModuleInfo(_PID, "UnZipDataToDirectory");
 
 					HANDLE hProcess = OpenProcess(PROCESS_ALL_ACCESS, false, PID);
-					ReadProcessMemory(hProcess, Mudele, &Entry, 4, NULL);
+					ReadProcessMemory(hProcess, Module, &Entry, 4, NULL);
 					CloseHandle(hProcess);
 					
 					if (Entry != 0)
