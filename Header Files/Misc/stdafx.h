@@ -1,3 +1,13 @@
+/*
+* CoreMX.IO
+*
+* Este arquivo faz parte do projeto MX-Injetor.
+*
+* Fórum: http://coremx.io
+* Facebook: https://www.facebook.com/coremx.io
+* GitHub: https://github.com/NoxxDev/MX-Injetor
+*/
+
 #pragma once
 #pragma comment(linker,"\"/manifestdependency:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*'    publicKeyToken='6595b64144ccf1df' language='*'\"")
 

@@ -1,3 +1,13 @@
+/*
+* CoreMX.IO
+*
+* Este arquivo faz parte do projeto MX-Injetor.
+*
+* Fórum: http://coremx.io
+* Facebook: https://www.facebook.com/coremx.io
+* GitHub: https://github.com/NoxxDev/MX-Injetor
+*/
+
 #include "Misc\stdafx.h"
 #include "Misc\Process.h"
 
