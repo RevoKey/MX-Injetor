@@ -1,0 +1,22 @@
+﻿Build started 24/10/2015 23:43:48.
+     1>Project "E:\Projetos\Hack\Brasil Prieton Tale\MX-Injetor\MX-Injetor.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"Header Files\\" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Source Files\Main\EventTimer.cpp" "Source Files\Main\GUI.cpp" "Source Files\Main\WinMain.cpp" "Source Files\Misc\Process.cpp"
+         EventTimer.cpp
+         GUI.cpp
+         WinMain.cpp
+         Process.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projetos\Hack\Brasil Prieton Tale\MX-Injetor\Release\MX-Injetor.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Projetos\Hack\Brasil Prieton Tale\MX-Injetor\Release\MX-Injetor.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projetos\Hack\Brasil Prieton Tale\MX-Injetor\Release\MX-Injetor.lib" /MACHINE:X86 /SAFESEH "Release\MX-Injetor.res"
+         Release\EventTimer.obj
+         Release\GUI.obj
+         Release\WinMain.obj
+         Release\Process.obj
+         Generating code
+         Finished generating code
+         MX-Injetor.vcxproj -> E:\Projetos\Hack\Brasil Prieton Tale\MX-Injetor\Release\MX-Injetor.exe
+     1>Done Building Project "E:\Projetos\Hack\Brasil Prieton Tale\MX-Injetor\MX-Injetor.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.20
