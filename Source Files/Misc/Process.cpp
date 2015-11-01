@@ -19,7 +19,7 @@ namespace Process
 	{
 		PROCESSENTRY32 pe;
 		HANDLE thSnapShot;
-		BOOL retval, ProcFound = false;
+		BOOL retval = false;
 
 		thSnapShot = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
 		if (thSnapShot == INVALID_HANDLE_VALUE)
